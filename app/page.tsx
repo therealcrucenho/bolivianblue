@@ -77,7 +77,8 @@ export default async function PlaygroundPage() {
       <Link href="/politica-de-privacidad">Política de Privacidad </Link> | 
       <Link href="/politica-de-cookies"> Política de cookies</Link> | 
       <Link href="/terminos-de-servicio"> Términos y Condiciones</Link> | 
-      <Link href="/contacto"> Contacto</Link>
+      <Link href="/contacto"> Contacto</Link> | 
+      <Link href="/contribuir"> Contribuir</Link>
       
       {/* <CookieConsent/> */}
     </div>
