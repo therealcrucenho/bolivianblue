@@ -70,7 +70,7 @@ const PoliticaDePrivacidad = () => {
       <p>
         Si tienes alguna pregunta sobre esta política de privacidad, puedes
         ponerte en contacto con nosotros a través de nuestro correo electrónico:
-        contacto@bolivianblue.com
+        contacto@bolivian-blue.com
       </p>
     </div>
   );

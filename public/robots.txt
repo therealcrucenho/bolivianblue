@@ -4,4 +4,4 @@ Disallow: /private/
 Disallow: /cgi-bin/
 Allow: /
 
-Sitemap: https://bolivianblue.com/sitemap.xml
+Sitemap: https://bolivian-blue.com/sitemap.xml

@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <Card className="mt-8">
       <Title>Contacto</Title>
-        <Text>contact@bolivianblue.com
+        <Text>contact@bolivian-blue.com
         </Text>
     </Card>
   );

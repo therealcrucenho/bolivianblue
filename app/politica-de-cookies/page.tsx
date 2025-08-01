@@ -16,7 +16,7 @@ const PoliticaDeCookies = () => {
       <p>Nos reservamos el derecho de actualizar esta política de cookies en cualquier momento. Te recomendamos revisar esta página periódicamente para estar al tanto de cualquier cambio. Si realizamos cambios significativos, te lo notificaremos a través de nuestro sitio web.</p>
       
       <h2 className="text-xl font-semibold mt-4">Contacto</h2>
-      <p>Si tienes alguna pregunta sobre esta política de cookies, puedes ponerte en contacto con nosotros a través de nuestro correo electrónico: contacto@bolivianblue.com</p>
+      <p>Si tienes alguna pregunta sobre esta política de cookies, puedes ponerte en contacto con nosotros a través de nuestro correo electrónico: contacto@bolivian-blue.com</p>
     </div>
   );
 };

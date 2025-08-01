@@ -21,17 +21,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="keywords" content={metadata.keywords} />
         <meta name="author" content={metadata.author} />
         <meta name="viewport" content={metadata.viewport} />
-        <link rel="canonical" href="https://www.bolivianblue.com" />
+        <link rel="canonical" href="https://www.bolivian-blue.com" />
         <link rel="icon" href="/logo.png" type="image/x-icon" />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.bolivianblue.com" />
-        <meta property="og:image" content="https://www.bolivianblue.com/logo.png" />
+        <meta property="og:url" content="https://www.bolivian-blue.com" />
+        <meta property="og:image" content="https://www.bolivian-blue.com/logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={metadata.title} />
         <meta name="twitter:description" content={metadata.description} />
-        <meta name="twitter:image" content="https://www.bolivianblue.com/logo.png" />
+        <meta name="twitter:image" content="https://www.bolivian-blue.com/logo.png" />
         <meta name="google-adsense-account" content="ca-pub-4504747702894199"></meta>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y74SLVSWN2"></script>
         <script dangerouslySetInnerHTML={{
@@ -48,8 +48,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "url": "https://www.bolivianblue.com",
-              "logo": "https://www.bolivianblue.com/logo.png"
+              "url": "https://www.bolivian-blue.com",
+              "logo": "https://www.bolivian-blue.com/logo.png"
             })
           }}
         />
