@@ -2,6 +2,10 @@
 
 Una plataforma de transparencia para el valor del dólar en Bolivia.
 
+![Bolivian Blue Preview](assets/image.png)
+
+*Vista previa de la aplicación mostrando las tasas de cambio oficiales y del mercado azul, junto con la evolución histórica de precios.*
+
 ## 📖 Acerca del Proyecto
 
 **Bolivian Blue** es una página web que proporciona transparencia en relación al valor del dólar en Bolivia. Nació como un MVP (Producto Mínimo Viable) con el objetivo de ofrecer información clara y accesible sobre el tipo de cambio.
@@ -21,6 +25,8 @@ Este proyecto se encuentra en desarrollo activo. Se estará trabajando en mejora
 ## 🤝 Contribuciones
 
 ¡Todos pueden contribuir al proyecto! Las contribuciones son bienvenidas y apreciadas.
+
+Si quieres contribuir, puedes hacerlo en: **https://github.com/therealcrucenho/bolivianblue**
 
 ### Cómo Contribuir
 
