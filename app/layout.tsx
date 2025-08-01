@@ -6,13 +6,19 @@ import GoogleAdsense from './GoogleAdsense';
 
 export const metadata = {
   title: 'Boliviano Dolar Blue - Precio del Dolar Blue en Bolivia',
-  description: 'Precio del dolar Blue en Bolivia, Boliviano Blue,precio dolar blue bolivia hoy, actualizado cada hora. Información confiable y precisa para tus necesidades financieras.',
-  keywords: 'dólar blue, boliviano blue, Bolivia, dolar boliviano precio, dolar paralelo, cambio de moneda, dólar en la calle',
+  description:
+    'Precio del dolar Blue en Bolivia, Boliviano Blue,precio dolar blue bolivia hoy, actualizado cada hora. Información confiable y precisa para tus necesidades financieras.',
+  keywords:
+    'dólar blue, boliviano blue, Bolivia, dolar boliviano precio, dolar paralelo, cambio de moneda, dólar en la calle',
   author: 'Boliviano Blue Team',
   viewport: 'width=device-width, initial-scale=1.0'
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="es" className="h-full bg-gray-50">
       <head>
@@ -27,29 +33,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property="og:description" content={metadata.description} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.bolivian-blue.com" />
-        <meta property="og:image" content="https://www.bolivian-blue.com/logo.png" />
+        <meta
+          property="og:image"
+          content="https://www.bolivian-blue.com/logo.png"
+        />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={metadata.title} />
         <meta name="twitter:description" content={metadata.description} />
-        <meta name="twitter:image" content="https://www.bolivian-blue.com/logo.png" />
-        <meta name="google-adsense-account" content="ca-pub-4504747702894199"></meta>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y74SLVSWN2"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-Y74SLVSWN2');
-          `
-        }} />
+        <meta
+          name="twitter:image"
+          content="https://www.bolivian-blue.com/logo.png"
+        />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              "url": "https://www.bolivian-blue.com",
-              "logo": "https://www.bolivian-blue.com/logo.png"
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              url: 'https://www.bolivian-blue.com',
+              logo: 'https://www.bolivian-blue.com/logo.png'
             })
           }}
         />
@@ -60,7 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </Suspense>
         {children}
         <Analytics />
-        <GoogleAdsense/>
+        <GoogleAdsense />
       </body>
     </html>
   );
